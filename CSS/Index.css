@@ -1,9 +1,15 @@
-/* Reset */
+/* ================= RESET ================= */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 /* ================= TOP BAR ================= */
@@ -22,10 +28,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 18px 5%;
-    background: #e6d6c9; /* beige tone like image */
+    background: #e6d6c9;
 }
 
-/* Left icons */
 .nav-left,
 .nav-right {
     display: flex;
@@ -34,157 +39,140 @@
     cursor: pointer;
 }
 
-/* Center brand */
 .nav-center h1 {
     font-size: 14px;
     letter-spacing: 2px;
     font-weight: 600;
 }
 
-/* Hover effect */
 .navbar i:hover {
     opacity: 0.6;
 }
 
-
-/* slider_css */
-.slider{
-  overflow: hidden;
-
-}
-.slider figure{
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  animation: 20s slider infinite;
-}
-.slider figure img{
-  float: left;
-  width: 20%;
+/* ================= SLIDER ================= */
+.slider {
+    overflow: hidden;
 }
 
-@keyframes slider{
-  0%{
-    left: 0;
-  }
-  20%{
-    left: 0;
-  }
-  25%{
-    left: -100%;
-  }
-  45%{
-    left: -100%;
-  }
-  50%{
-    left: -200%;
-  }
-  70%{
-    left: -200%;
-  }
-  75%{
-    left: -300%;
-  }
- 95%{
-  left: -300%;
- }
- 100%{
-  left: -400%;
- }
+.slider figure {
+    display: flex;
+    width: 500%;
+    animation: slider 20s infinite;
+    margin: 0;
 }
-/*  */
-.parents_main{
- display: flex;
- height: 220px;
- justify-content:space-around;
- padding: 0px 30px;
- align-items: center;
- background-color: #111;
- color: #fff;
+
+.slider figure img {
+    width: 20%;
+    display: block;
 }
-.Countries_text{
+
+/* Smooth transform-based animation */
+@keyframes slider {
+    0%, 20%   { transform: translateX(0); }
+    25%, 45%  { transform: translateX(-100%); }
+    50%, 70%  { transform: translateX(-200%); }
+    75%, 95%  { transform: translateX(-300%); }
+    100%      { transform: translateX(-400%); }
+}
+
+/* ================= STATS ================= */
+.parents_main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 30px;
+    background-color: #111;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.child_1 {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+}
+
+.Countries_text {
     font-size: 37px;
-    /* font-weight: bold; */
+    padding-bottom: 9px;
 }
-.Countries_Shipped{
-    font-size:20px;
+
+.Countries_Shipped {
+    font-size: 20px;
     letter-spacing: 1px;
     word-spacing: 2px;
 }
-.child_1{
-    display: flex;
-    gap:28px;
-    justify-content: center;
-    align-items: center;
-}
-.Countries_text{
-    padding-bottom:9px;
-}
-/* parents_main_code_css */
 
-.background_img{
-    background: url(../Utile/Opera_house_editorial_21st_Feb1444_2_7aef6581-1aa7-4a6b-8e8d-a38b85f2331e.webp);
-    width:100%;
-    background-repeat: no-repeat;
-    height:100vh;
-    background-size: cover;
-    background-position:center;
+/* ================= BACKGROUND CATEGORY ================= */
+.background_img {
+    background: url("../Utile/Opera_house_editorial_21st_Feb1444_2_7aef6581-1aa7-4a6b-8e8d-a38b85f2331e.webp")
+        center / cover no-repeat;
+
+    /* IMPORTANT FIX */
+    min-height: calc(100vh - 140px);
+
     padding: 140px 80px;
-    border: 1px solid black;
 }
 
-.CATEGORIES_div{
+/* ================= CATEGORY TEXT ================= */
+.CATEGORIES_div {
     color: #fff;
 }
-.CATEGORIES_text_1{
-    font-size:25px;
+
+.CATEGORIES_text {
+    font-size: 19px;
+    margin-bottom: 50px;
+}
+
+.CATEGORIES_text_1 {
+    font-size: 25px;
+    margin: 19px 0;
     word-spacing: 2px;
-    margin: 19px 0px;
 }
-.CATEGORIES_text{
-    font-size:19px;
-     margin-bottom: 50px;
-}
-/*  */
-.img_cart_1{
-    width:355px;
-    height:445px;
+
+/* ================= OTHER SECTIONS (UNCHANGED) ================= */
+.img_cart_1 {
+    width: 355px;
+    height: 445px;
     object-fit: cover;
 }
-.parents_main_3{
+
+.parents_main_3 {
     display: flex;
-    justify-content:center;
-    margin:30px 0px;
+    justify-content: center;
+    margin: 30px 0;
     gap: 10px;
     align-items: center;
 }
-.New_Arrivals_text{
-    font-size: 16px;
-    color: #111;
-    margin: 10px 0px;
-}
-.New_Arrivals{
-    margin-top:80px;
-    margin-left:38px;
+
+.New_Arrivals {
+    margin-top: 80px;
+    margin-left: 38px;
     font-size: 38px;
     font-weight: normal;
 }
-.New_Arrivals_text1{
-    color: #4d4b4b;
-    margin: 6px 0px;
-    font-size:16px;
-}
-.Navy_img{
-    display: flex;
-    justify-content:start;
-    align-items:center;
-    gap: 12px;
-    margin: 8px 0px;
+
+.New_Arrivals_text {
+    font-size: 16px;
+    color: #111;
+    margin: 10px 0;
 }
 
+.New_Arrivals_text1 {
+    color: #4d4b4b;
+    margin: 6px 0;
+    font-size: 16px;
+}
+
+.Navy_img {
+    display: flex;
+    gap: 12px;
+    margin: 8px 0;
+}
+
+
 /* <!---The Highlights_css-----> */
-.Layer_text{
+ .Layer_text{
  font-size:34px;
  color: #111;
 }
@@ -201,9 +189,45 @@
     width: 500px;
     height: 550px;
 }
-/* .The_Highlights_cart_div{
+.The_Highlights_cart_div{
     display: flex;
     gap: 20px;
     overflow: scroll;
     scrollbar-width: none;
-} */
+    justify-content: start;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.Life_in_a_Startup_text{
+    font-size: 19px;
+    padding: 10px 0px;
+    color: #111;
+}
+
+.Life_in_a_Startup_text2{
+    font-size: 17px;
+    color: gray;
+
+} 
+
+ /* <!---The Highlights_code_end-----> */
+
+ .BSC_X_Creators{
+    background-color: #111;
+    color: white;
+    height: 800px;
+}
+.BSCXCreators_1{
+    padding-top: 100px;
+    padding-left: 30px;
+    
+}
+.Creatortext{
+    font-size:42px;
+
+}
+.Creatorstext_2{
+    font-size: 20px;
+    color: #999898;
+} 
