@@ -182,3 +182,28 @@
     gap: 12px;
     margin: 8px 0px;
 }
+
+/* <!---The Highlights_css-----> */
+.Layer_text{
+ font-size:34px;
+ color: #111;
+}
+.The_Highlights{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 15px;
+}
+.The_Highlights_maindiv{
+    margin:100px 30px;
+}
+.Life_in_a_Startup_img{
+    width: 500px;
+    height: 550px;
+}
+/* .The_Highlights_cart_div{
+    display: flex;
+    gap: 20px;
+    overflow: scroll;
+    scrollbar-width: none;
+} */
