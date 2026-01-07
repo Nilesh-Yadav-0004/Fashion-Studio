@@ -58,7 +58,7 @@ body {
 .slider figure {
     display: flex;
     width: 500%;
-    animation: slider 20s infinite;
+    animation: slider 12s infinite;
     margin: 0;
 }
 
@@ -68,7 +68,7 @@ body {
 }
 
 /* Smooth transform-based animation */
-@keyframes slider {
+/* @keyframes slider {
 
     0%,
     20% {
@@ -93,7 +93,7 @@ body {
     100% {
         transform: translateX(-400%);
     }
-}
+} */
 
 /* ================= STATS ================= */
 .parents_main {
@@ -436,4 +436,106 @@ h1 {
     align-items: center;
     gap: 16px;
     margin: 15px 0px;
+}
+
+
+
+
+.card{
+  width:50%;
+  height:700px;
+  overflow: hidden;
+}
+
+.slider{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slider figure{
+  display: flex;
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  animation: slider 12s ease-in-out infinite;
+}
+
+.slider figure img{
+  width: 20%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes slider {
+  0%    { transform: translateX(0); }
+  20%   { transform: translateX(0); }
+
+  25%   { transform: translateX(-20%); }
+  45%   { transform: translateX(-20%); }
+
+  50%   { transform: translateX(-40%); }
+  70%   { transform: translateX(-40%); }
+
+  75%   { transform: translateX(-60%); }
+  95%   { transform: translateX(-60%); }
+
+  100%  { transform: translateX(-80%); }
+}
+
+
+.nearest_child2{
+  width: 50%;
+  height:700px;
+  border: 1px solid black;
+  color: #fff;
+  background-color: black;
+}
+.nearest_maindiv{
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.nearest_text{
+    font-size:30px;
+
+}
+.nearest_text1{
+    font-size:18px;
+    padding:24px 0px;
+    color: #999;
+}
+.pincode{
+    width: 460px;
+    background-color: #fff;
+    height:65px;
+    border-radius: 40px;
+    border: 1px solid #fff;
+
+}
+.storre{
+    width:170px;
+    height: 50px;
+    margin-left:135px;
+    background-color:#333333;
+    color: #fff;
+    margin-top:7px;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: transparent;
+    border-radius: 30px;
+}
+span{
+     margin-left:30px;
+     color: #999;
+     text-transform: capitalize;
+     font-size: 18px;
+}
+
+.nearest_child2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
 }
