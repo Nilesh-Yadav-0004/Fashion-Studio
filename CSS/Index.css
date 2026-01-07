@@ -6,7 +6,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -68,11 +69,30 @@ html, body {
 
 /* Smooth transform-based animation */
 @keyframes slider {
-    0%, 20%   { transform: translateX(0); }
-    25%, 45%  { transform: translateX(-100%); }
-    50%, 70%  { transform: translateX(-200%); }
-    75%, 95%  { transform: translateX(-300%); }
-    100%      { transform: translateX(-400%); }
+
+    0%,
+    20% {
+        transform: translateX(0);
+    }
+
+    25%,
+    45% {
+        transform: translateX(-100%);
+    }
+
+    50%,
+    70% {
+        transform: translateX(-200%);
+    }
+
+    75%,
+    95% {
+        transform: translateX(-300%);
+    }
+
+    100% {
+        transform: translateX(-400%);
+    }
 }
 
 /* ================= STATS ================= */
@@ -105,8 +125,7 @@ html, body {
 
 /* ================= BACKGROUND CATEGORY ================= */
 .background_img {
-    background: url("../Utile/Opera_house_editorial_21st_Feb1444_2_7aef6581-1aa7-4a6b-8e8d-a38b85f2331e.webp")
-        center / cover no-repeat;
+    background: url("../Utile/Opera_house_editorial_21st_Feb1444_2_7aef6581-1aa7-4a6b-8e8d-a38b85f2331e.webp") center / cover no-repeat;
 
     /* IMPORTANT FIX */
     min-height: calc(100vh - 140px);
@@ -172,24 +191,28 @@ html, body {
 
 
 /* <!---The Highlights_css-----> */
- .Layer_text{
- font-size:34px;
- color: #111;
+.Layer_text {
+    font-size: 34px;
+    color: #111;
 }
-.The_Highlights{
+
+.The_Highlights {
     display: flex;
-    justify-content:start;
+    justify-content: start;
     align-items: center;
     gap: 15px;
 }
-.The_Highlights_maindiv{
-    margin:100px 30px;
+
+.The_Highlights_maindiv {
+    margin: 100px 30px;
 }
-.Life_in_a_Startup_img{
+
+.Life_in_a_Startup_img {
     width: 500px;
     height: 550px;
 }
-.The_Highlights_cart_div{
+
+.The_Highlights_cart_div {
     display: flex;
     gap: 20px;
     overflow: scroll;
@@ -199,113 +222,218 @@ html, body {
     margin: 20px 0px;
 }
 
-.Life_in_a_Startup_text{
+.Life_in_a_Startup_text {
     font-size: 19px;
     padding: 10px 0px;
     color: #111;
 }
 
-.Life_in_a_Startup_text2{
+.Life_in_a_Startup_text2 {
     font-size: 17px;
     color: gray;
 
-} 
+}
 
- /* <!---The Highlights_code_end-----> */
+/* <!---The Highlights_code_end-----> */
 
- .BSC_X_Creators{
+.BSC_X_Creators {
     background-color: #111;
     color: white;
-    height:760px;
+    height: 760px;
 }
-.BSCXCreators_1{
+
+.BSCXCreators_1 {
     padding-top: 100px;
     padding-left: 30px;
 
-    
-}
-.Creatortext{
-    font-size:42px;
 
 }
-.Creatorstext_2{
+
+.Creatortext {
+    font-size: 42px;
+
+}
+
+.Creatorstext_2 {
     font-size: 20px;
-    margin-top:19px;
+    margin-top: 19px;
     color: #999898;
-} 
-hr{
+}
+
+hr {
     margin: auto;
     width: 95%;
     margin-top: 50px;
 }
-#A{
-    font-size:30px;
-    color:rgba(255, 217, 0, 0.847);
+
+#A {
+    font-size: 30px;
+    color: rgba(255, 217, 0, 0.847);
 }
-.LeadingEvent_maindiv{
+
+.LeadingEvent_maindiv {
     display: flex;
-    overflow:scroll;
+    overflow: scroll;
     gap: 100px;
     scrollbar-width: none;
-    align-items:center;
-    justify-content:start;
+    align-items: center;
+    justify-content: start;
     padding: 80px 0px;
     margin: auto;
     width: 96%;
 }
-.Leadingvent_child1{
+
+.Leadingvent_child1 {
     display: flex;
-    gap:30px;
+    gap: 30px;
 }
-.Leadingvent_text{
+
+.Leadingvent_text {
     margin: 40px 0px;
     font-size: 19px;
-    width:180px;
+    width: 180px;
     word-spacing: 6px;
     line-height: 22px;
 }
 
-.Our_Legacy{
-   background: url("../Utile/bground_img.webp");
-   background-size: cover;
-   background-position: center;
-   background-repeat:no-repeat;
+.Our_Legacy {
+    background: url("../Utile/bground_img.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
     margin: 0px;
-   /* min-height: calc(100vh - 140px); */
-   height: 100vh;
+    /* min-height: calc(100vh - 140px); */
+    height: 100vh;
 }
-h1{
-    color:#fff;
+
+h1 {
+    color: #fff;
     font-weight: normal;
-    font-size:39px;
+    font-size: 39px;
 }
-.text{
-    font-size:22px;
+
+.text {
+    font-size: 22px;
     color: #999;
     padding: 30px 0px;
 }
-.btn1,.btn2{
-    width:190px;
+
+.btn1,
+.btn2 {
+    width: 190px;
     height: 48px;
-    border:transparent;
+    border: transparent;
     text-transform: uppercase;
     font-size: 14px;
     border-radius: 50px;
 }
-.btn2{
+
+.btn2 {
     background-color: transparent;
     border: 1px solid #fcf8f8;
     color: #fff;
 }
-.Tailoring_Heritage{
+
+.Tailoring_Heritage {
     display: grid;
-   justify-items:center;
-   align-content: center;
-   padding:270px 0px;
+    justify-items: center;
+    align-content: center;
+    padding: 270px 0px;
 
 }
-.btn_product{
-  display: flex;
-  gap: 15px;
+
+.btn_product {
+    display: flex;
+    gap: 15px;
+}
+
+/*  */
+.WHATTHEYSAYBOUTUS_maindiv {
+    margin: auto;
+    width: 95%;
+    background-color: #f2eeee;
+    margin-top: 60px;
+    height: 550px;
+    border: 1px transparent;
+}
+
+.ABOUT_US {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #655b5b;
+}
+
+.Excellent_text {
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.WHATTHEYSAYBOUTUS_child_1 {
+    text-align: center;
+    padding: 90px 0px !important;
+}
+
+.Sanjeev_Jain {
+    font-size: 20px;
+}
+
+.WHATTHEYSAYBOUTUS_child_2 {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.img_log1 {
+    width: 170px;
+    height: 150px;
+}
+
+.img_log2 {
+    width: 100px;
+    height: 10 0px;
+}
+
+/*  */
+
+
+.Wardrobe_img {
+    margin: auto !important;
+    width: 100%;
+    /* margin:0px 50px; */
+    height: 830px;
+    object-fit: fill;
+}
+
+.Wardrobe_dinmain {
+    margin: 50px 30px;
+}
+
+.Wardrobe_dinmain {
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.Wardrobe_text {
+    top: 370px;
+    position: absolute;
+    margin: 0px 65px;
+
+}
+.text1{
+    text-transform: capitalize;
+    font-size:32px;
+    letter-spacing:0.5px;
+    font-weight: bold;
+    color: #fff;
+}
+.Google_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 15px 0px;
 }
