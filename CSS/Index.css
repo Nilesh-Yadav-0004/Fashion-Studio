@@ -539,3 +539,11 @@ span{
     align-items: center;
     padding: 50px 0px;
 }
+
+.footer_logo{
+
+     display: flex;
+     justify-content: center;
+     align-items:center;
+      margin:50px 0px;
+}
