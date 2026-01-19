@@ -273,9 +273,10 @@ hr {
 
 .LeadingEvent_maindiv {
     display: flex;
-    overflow: scroll;
+    overflow:scroll;
     gap: 100px;
     scrollbar-width: none;
+
     align-items: center;
     justify-content: start;
     padding: 80px 0px;
@@ -648,4 +649,40 @@ span{
     word-spacing: 9px;
     color: #8a8383;
     
+}
+
+@media(max-width:320px){
+    .top-bar {
+    padding: 8px 15px;
+    font-size: 8px;
+}
+.nav-center h1 {
+    font-size: 10px;
+    text-align: center;
+}
+.parents_main {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+   justify-items: center;
+   align-content: center;
+   gap: 15px;
+    padding: 30px 17px;
+    flex-wrap:nowrap;
+    
+}
+.child_1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.Countries_text {
+    font-size: 20px;
+    padding-bottom:0px;
+}
+.Countries_Shipped {
+    font-size: 10px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
 }
