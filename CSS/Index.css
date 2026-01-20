@@ -778,8 +778,8 @@ img {
     height: 20px;
 }
 
-Wardrobe_img {
-    margin: auto;
+.Wardrobe_img {
+    margin: auto !important;
     width: 100%;
     /* margin: 0px 50px; */
     height: 212px;
