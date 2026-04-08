@@ -1,4 +1,147 @@
 {
-    "users":[],
-    "book":[]
+    "sweets":[
+     {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/3518.webp",
+        "title":"Assorted Sweets",
+        "price":"Rs.550-Rs2,350"
+     },
+      {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/IMG_1880.webp",
+        "title":"Atta Ladoo",
+        "price":"Rs.200-Rs.950"
+     },
+
+    {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/3125.webp",
+        "title":"Badam Pista Halwa",
+        "price":"Rs.450-Rs.1,950"
+    },
+     {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/3452.webp",
+        "title":"Bhugal Mawa",
+        "price":"Rs.350-Rs.1,550"
+     } ,
+
+       {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/2804.webp",
+        "title":"Black Sesame seed Sweet",
+        "price":"Rs.600-Rs.2,550"
+       },
+
+       
+       {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/2761.webp",
+        "title":"Chocolate Burfi",
+        "price":"₹350.00 – ₹1,550.00"
+       },
+
+          
+       {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/3534.webp",
+        "title":"Double Pista Halwa",
+        "price":"₹450.00 – ₹1,950.00"
+       },
+
+         {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/3349.webp",
+        "title":"Double Pista Toffee Halwa",
+        "price":"₹475.00 – ₹1,950.00"
+         },
+
+         
+         {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/2839.webp",
+        "title":"Dry Fruit Chikki",
+        "price":"₹400.00 – ₹1,750.00"
+       },
+
+         {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/3354.webp",
+        "title":"Gulab Jamun",
+        "price":"₹50.00"
+       },
+
+      {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/3142.webp",
+        "title":"Kaju Burfi",
+        "price":"₹450.00 – ₹1,950.00"
+       },
+
+
+        {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/3266.webp",
+        "title":"Kaju Katlee",
+        "price":"₹450.00 – ₹1,950.00"
+       },
+
+         {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/3253.webp",
+        "title":"Kaju Kesar Cup",
+        "price":"₹400.00 – ₹1,750.00"
+       },
+
+         {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/3306.webp",
+        "title":"Kesar Pista Roll",
+        "price":"₹550.00 – ₹2,350.00"
+       },
+
+
+          {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/2014.webp",
+        "title":"Malai Peda",
+        "price":"₹350.00 – ₹1,550.00"
+       },
+
+          {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/2560.webp",
+        "title":"Mathura Peda",
+        "price":"₹350.00 – ₹1,550.00"
+       },
+
+
+        {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/3096.webp",
+        "title":"Walnut Fudge",
+        "price":"₹450.00 – ₹1,950.00"
+       },
+
+        {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/2143.webp",
+        "title":"Rabdi",
+        "price":"₹350.00 – ₹1,550.00"
+       },
+       
+         {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/2516.webp",
+        "title":"Motichoor Laddoo",
+        "price":"₹200.00 – ₹950.00"
+       },
+
+          {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/3595.webp",
+        "title":"Mohan Thal",
+        "price":"₹200.00 – ₹950.00"
+       }
+    ],
+
+    "Namkeen":[
+
+    {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/2890.webp",
+        "title":"Moong Dal",
+        "price":"₹200.00 – ₹950.00"
+    },
+      {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/2934.webp",
+        "title":"Nakul",
+        "price":"₹200.00 – ₹950.00"
+    },
+      {
+        "img":"https://tharusweets.com/wp-content/uploads/2023/10/2959.webp",
+        "title":"Salted Matthi",
+        "price":"₹200.00 – ₹950.00"
+    }
+
+    ]
 }
